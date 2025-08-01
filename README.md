@@ -9,7 +9,8 @@ This repository contains R scripts developed to preprocess and standardize the h
    
 This script includes the following preprocessing steps:
 - Standardization of Spanish terms: Ensures consistent terminology across the dataset by homogenizing variations in Spanish-language entries.
-- Numerical variable transformations: Applies value ranges to selected numerical variables, where applicable.
+- Numerical variable transformations: Applies value ranges and cleaning to selected numerical variables, particularly in cost-related columns to ensure consistent and valid economic data.
+- Sheet-specific standardization: These procedures are applied to tables 3 (Harvest), 5 (Irrigation), 6 (Costs and Revenues), and sheet 4 (Agricultural Supplies and Inputs), with targeted cleaning and normalization based on the type of data in each sheet.
 - Translation to English: Translates standardized Spanish content into English for broader accessibility and analysis.
 
  **Dataset_joins.R**
